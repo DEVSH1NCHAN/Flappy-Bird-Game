@@ -240,7 +240,7 @@ if __name__ == '__main__':
     GAME_SPRITES['pipe'] =(pygame.transform.rotate(pygame.image.load(PIPE).convert_alpha(), 180),
     pygame.image.load(PIPE).convert_alpha())
 
-    # Adding Sounds
+    # Adding SOUNDS
     GAME_SOUNDS['die'] = pygame.mixer.Sound('gallery/audio/die.wav')
     GAME_SOUNDS['hit'] = pygame.mixer.Sound('gallery/audio/hit.wav')
     GAME_SOUNDS['point'] = pygame.mixer.Sound('gallery/audio/point.wav')
